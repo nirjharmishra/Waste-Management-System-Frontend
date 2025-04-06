@@ -1,0 +1,333 @@
+<!-- BOOTSTRAP element (Album) Gallery Feature -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Name of Website : Waste Wizard -->
+  <title>Waste Wizard (Gallery)</title>
+  <!-- Logo of our Website (Waste Management System) FAVICON -->
+  <link rel="icon" href="./assets/Logo.png">
+  <!-- Adding CSS Code file Externally -->
+  <link rel="stylesheet" href="./styles.css">
+  <!-- Adding Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Adding JS Script of BootStrap for Working -->
+  <!-- Add between Head end and Body Start -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- NAVBAR using Bootstrap-->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <img src="./assets/Logo.png" width="70px" alt="logo">
+      <!-- Name of WebSite (Link) -->
+      <a class="navbar-brand" href="./index.html">Waste<span class="logo-text2">Wizard</span></a>
+      <!-- NAVBAR Config -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <!-- HOME -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <!-- DONATIONS -->
+          <li class="nav-item">
+            <a class="nav-link" href="./donations.html">Donations</a>
+          </li>
+          <!-- GALLERY -->
+          <li class="nav-item">
+            <a class="nav-link active" href="./gallery.html">Gallery</a>
+          </li>
+          <!-- BLOGS -->
+          <li class="nav-item">
+            <a class="nav-link" href="./blogs.html">Blogs</a>
+          </li>
+          <!-- MISSIONS -->
+          <li class="nav-item">
+            <a class="nav-link" href="./missions.html">Missions</a>
+          </li>
+          <!-- CONTACT-->
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success search" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Motto (Bar below NavBar)-->
+  <div class="navbar2">
+    <div class="motto">
+      <h2 class="motto1"><i>"Unveiling the Magic of Waste: <span class="motto2"><i>Where Wizards Work Wonders for a
+              Cleaner Planet."</i></span></h2>
+    </div>
+  </div>
+
+  <!-- HamBurger Menu Data -->
+  <header data-bs-theme="dark">
+    <div class="text-bg-dark collapse" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4>Gallery</h4>
+            <p class="text-body-secondary">Step into our world of accomplishments and see the magic of our mission in
+              action. Our gallery is a visual testament to the projects we've completed, the lives we've touched, and
+              the communities we've uplifted. Explore these glimpses of success and let the spirit of positive change
+              inspire you.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4>Connect with us..!!</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://twitter.com/?lang=en-in" class="text-white">Follow on Twitter</a></li>
+              <li><a href="https://www.facebook.com/" class="text-white">Like on Facebook</a></li>
+              <li><a href="https://mail.google.com/mail/u/0/?ogbl" class="text-white">Email me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="./gallery.html" class="navbar-brand d-flex align-items-center">
+          <!-- Camera Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
+            viewBox="0 0 24 24">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+            <circle cx="12" cy="13" r="4"></circle>
+          </svg>
+          <!-- ALBUM Title -->
+          <strong>Gallery</strong>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+
+    <section class="container">
+      <div class="row py-lg-5">
+        <div class="main">
+          <h1>Gallery of <span>Achievements</span></h1>
+          <p class="txt">Welcome to our gallery, where we proudly showcase the tangible results of our unwavering
+            dedication and high spirits in pursuit of our mission. Here, you'll find a captivating visual journey
+            through the projects we've successfully completed. Each image represents a milestone, a moment of
+            transformation, and a testament to the positive change we bring to the world. Explore these snapshots of our
+            impact, and let them ignite your own spirit for making a difference.</p>
+          <div class="button">
+            <p>
+              <a href="./contact.html" class="btn1 ">Donate now</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALBUMS -->
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container" class="gallerybox">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <!-- Album1 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./assets/img1.jpg" height="280px" alt="Plants">
+              <div class="card-body">
+                <p class="card-text">In our quest for a greener world, we've sown the seeds of hope, one tree at a time.
+                  Witness the growth of our eco-friendly mission as we plant the seeds of a sustainable future.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+                  <small class="text-body-secondary">1 day ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Album2 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./assets/img2.jpg" alt="Plants">
+              <div class="card-body">
+                <p class="card-text">Turning the tide on plastic pollution. Discover our commitment to responsible waste
+                  management as we tackle the plastic problem, one eco-friendly disposal at a time.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+                  <small class="text-body-secondary">3 days ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Album3 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./assets/img3.jpg" alt="Plants">
+              <div class="card-body">
+                <p class="card-text">Unifying our forces to illuminate minds. Explore how our dedicated team
+                  collaborates to ignite awareness, fostering a collective spirit of change for a better world.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+                  <small class="text-body-secondary">1 week ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Album4 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./assets/img4.jpeg" height="280px" alt="Plants">
+              <div class="card-body">
+                <p class="card-text">Nourishing bodies and souls. Witness the heartwarming journey of providing food to
+                  those in need, filling both stomachs and hearts with care and compassion.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+                  <small class="text-body-secondary">1 month ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Album5 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./assets/img5.jpg" height="280px" alt="Plants">
+              <div class="card-body">
+                <p class="card-text">Empowering the future leaders. Join us on our educational journey as we host
+                  seminars in schools, igniting young minds with knowledge and inspiration to create a brighter world.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+                  <small class="text-body-secondary">2 months ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Album6 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./assets/img6.png" height="280px" alt="Plants">
+              <div class="card-body">
+                <p class="card-text">Transforming waste into a valuable resource. Explore our innovative approach to
+                  waste management, ensuring optimal separation for recycling & reusing environmental impact.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm">View</button>
+                  </div>
+                  <small class="text-body-secondary">2 months ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Album7 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./assets/img7.jpg" height="280px" alt="Plants">
+              <div class="card-body">
+                <p class="card-text">Uniting for warmth and kindness. Step into our donation camps, where compassion
+                  meets practicality. Explore how we gather and distribute clothing, sharing the gift of warmth.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+                  <small class="text-body-secondary">2 months ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Album8 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./assets/img8.jpg" height="280px" alt="Plants">
+              <div class="card-body">
+                <p class="card-text">Empowering minds through the written word. Discover our mission to provide
+                  knowledge and inspiration by supplying books to students, equipping them for a brighter future.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+                  <small class="text-body-secondary">3 months ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Album9 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./assets/img9.jpg" height="280px" alt="Plants">
+              <div class="card-body">
+                <p class="card-text">Averting environmental harm, one careful step at a time. Dive into our systematic
+                  approach to decomposing hazardous waste, ensuring a cleaner and safer environment for all.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+                  <small class="text-body-secondary">4 months ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-body-secondary py-5">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a class="f-link" href="">Back to top</a>
+      </p>
+      <p class="mb-1">Step into our world of accomplishments and witness the transformative power of our mission.
+        Explore these snapshots of success, and be inspired to create change.
+        <span>Inspiring Change, One Image at a Time.</span>
+      </p>
+      <p class="mb-0"><a href="/index.html">Visit the homepage</a>.</p>
+    </div>
+  </footer>
+  <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+<!-- Including jQuery (JS Library)-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- Including Javascript Code file Externally -->
+<script src="./script.js"></script>
+
+</html>

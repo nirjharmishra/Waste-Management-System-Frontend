@@ -1,0 +1,179 @@
+/* @media(max-width: 991px){
+    .home-sec .home-content {
+        padding: 70px 0;
+    }
+    .cont-sec p,
+    .cont-sec .social {
+        text-align: center;
+    }
+    .home-sec .img-sec img {
+        margin-bottom: 50px;
+    }   
+    .about-sec .about-img {
+        display: flex;
+        justify-content: center;
+    }
+    .about-sec .about-img img{
+        margin-top: 50px;
+    }
+    .contact-sec .col-lg-12{
+        padding: 0;
+    }
+    .contact-form textarea.form-control {
+        width: 96%;
+        margin-left: 15px;
+    }
+    .gallery-sec .pop-image img {
+        top: 60%;
+        left: 50%;
+        width: 500px;
+    }
+}
+@media(max-width: 611px){
+    .about-sec .about-img img{
+        width: 300px;
+    }
+    .contact-section .contact-form textarea.form-control {
+        width: 94%;
+    }
+}
+
+
+@media(max-width: 551px){
+
+header .navbar-brand{
+    font-size: 18px;
+}
+.gallery-sec .pop-image img {
+    top: 50%;
+}
+.gallery-sec .pop-image img {
+    width: 300px;
+}
+} */
+
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+    /* Adjust the font size for smaller screens */
+    body {
+        font-size: 16px;
+    }
+
+    /* Reduce padding for smaller screens */
+    .container {
+        padding: 20px;
+    }
+
+    /* Adjust the size of the logo on smaller screens */
+    .navbar-brand img {
+        width: 50px;
+    }
+
+    /* Increase the padding for links in the navbar for touch targets */
+    .nav-link {
+        padding: 10px 0;
+    }
+
+    /* Center-align the social media icons on smaller screens */
+    .social {
+        text-align: center;
+    }
+
+    /* Adjust the size of the GIF image on smaller screens */
+    .img-sec img {
+        width: 100%;
+    }
+
+    /* Center-align text on smaller screens */
+    .home-info {
+        text-align: center;
+    }
+
+    /* Adjust padding and font size for "About Us" section on smaller screens */
+    .about-sec {
+        padding: 30px 0;
+    }
+    .about-img img {
+        width: 100%;
+        margin: 0;
+    }
+    .about-sec p {
+        font-size: 1rem;
+    }
+
+    /* Adjust padding and font size for the footer on smaller screens */
+    footer {
+        padding: 30px 0;
+    }
+    .col-one, .col-two {
+        text-align: center;
+    }
+    .foot {
+        margin-top: 10px;
+    }
+
+    /* Adjust the size of donation boxes on smaller screens */
+    .don-box {
+        margin: 20px 0;
+        padding: 30px;
+    }
+    .don-box img {
+        width: 40px;
+    }
+}
+
+/* For screens smaller than 576px (e.g., smaller mobile devices) */
+@media (max-width: 576px) {
+    /* Adjust the font size for smaller screens */
+    body {
+        font-size: 14px;
+    }
+
+    /* Reduce padding for smaller screens */
+    .container {
+        padding: 10px;
+    }
+
+    /* Adjust the size of the logo on smaller screens */
+    .navbar-brand img {
+        width: 40px;
+    }
+
+    /* Adjust the size of the GIF image on smaller screens */
+    .img-sec img {
+        width: 100%;
+    }
+
+    /* Adjust padding and font size for "About Us" section on smaller screens */
+    .about-sec {
+        padding: 20px 0;
+    }
+    .about-img img {
+        width: 100%;
+        margin: 0;
+    }
+    .about-sec p {
+        font-size: 0.9rem;
+    }
+
+    /* Adjust padding and font size for the footer on smaller screens */
+    footer {
+        padding: 20px 0;
+    }
+    .col-one, .col-two {
+        text-align: center;
+    }
+    .foot {
+        margin-top: 10px;
+    }
+
+    /* Adjust the size of donation boxes on smaller screens */
+    .don-box {
+        margin: 20px 0;
+        padding: 20px;
+    }
+    .don-box img {
+        width: 30px;
+    }
+}
