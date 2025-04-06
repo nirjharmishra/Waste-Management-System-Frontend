@@ -17,4 +17,7 @@ Waste Wizard is a web-based platform dedicated to responsible waste management a
 - Bootstrap 5.3.2
 - jQuery 3.7.1
 
-## Project Structure
+## Acknowledgments
+- Bootstrap Team for their excellent framework.
+- jQuery Team for their utility functions.
+- All contributors and supporters of the Waste Wizard initiative.
